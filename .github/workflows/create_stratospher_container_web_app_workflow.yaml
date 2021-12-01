@@ -16,6 +16,7 @@ jobs:
       AZURE_TENANT_ID: "${{ github.event.client_payload.tenant_id }}"
       AZURE_CONTAINER_WEB_APP_NAME_PREFIX: 'alm-app'
       AZURE_ACR_NAME: 'almacr'
+      AZURE_ACR_RESOURCE_NAME: 'almacr'
       STRATOSPHERE_API_URL: https://api.live.external.byp.ai
       PROJECT_NAME: "${{ github.event.client_payload.project_name }}"
       GEOGRAPHY: "${{ github.event.client_payload.geography }}"
